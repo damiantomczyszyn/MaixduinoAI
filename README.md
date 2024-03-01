@@ -23,5 +23,5 @@
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[JQuery.com]: https://hub.docker.com/api/media/repos_logo/v1/library%2Fpython
+[Python.org]: https://hub.docker.com/api/media/repos_logo/v1/library%2Fpython
 [Python-url]: https://www.python.org/

@@ -2,7 +2,7 @@
 
 ## Inteligentne sterowanie kamerą przymocowaną do serwomechanizmu, aby śledziła piłkę do tenisa stołowego.
 
-!-- ROADMAP -->
+
 ### Plan działania
 
 - [x] Stworzenie projektu i przygotowanie środowiska
@@ -23,4 +23,5 @@
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
+[JQuery.com]: https://hub.docker.com/api/media/repos_logo/v1/library%2Fpython
 [Python-url]: https://www.python.org/

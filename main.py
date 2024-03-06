@@ -4,6 +4,8 @@ import sensor, image, time
 from fpioa_manager import fm
 from Maix import GPIO
 import utime
+#from hcsr04 import HCSR04
+import hcsr04
 
 sensor.reset()
 sensor.set_pixformat(sensor.RGB565)
@@ -22,7 +24,11 @@ pin_13 = GPIO(GPIO.GPIO0, GPIO.OUT)
 pin_12 = GPIO(GPIO.GPIO1, GPIO.OUT)
 pin_11 = GPIO(GPIO.GPIO2, GPIO.OUT)
 
+#pin 10 to 13 w kodzie
+#pin 9  to 12 w kodzie
 ##################
+
+sensor = HCSR04(trigger_pin=5, echo_pin=18, echo_timeout_us=10000)
 
 clock = time.clock()
 

@@ -6,8 +6,8 @@
 ### Plan działania
 
 - [x] Stworzenie projektu i przygotowanie środowiska
-- [ ] Zrozumienie sterowania pinami w jęzku Python
-  - [ ] Przetestowanie czujnika odległości.
+- [x] Zrozumienie sterowania pinami w jęzku Python
+- [x] Przetestowanie czujnika odległości.
 - [ ] Przetestowanie połączenia serwomechanizmu
 - [ ] Oprogramowanie sterowania serwomechanizmem.
 - [ ] Zebranie zdjęć do nauki modelu.

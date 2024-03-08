@@ -3,6 +3,8 @@
 import sensor, image, time
 from fpioa_manager import fm
 from Maix import GPIO
+from servo import Servo
+import time
 import utime
 #from hcsr04 import HCSR04
 import hcsr04
@@ -32,6 +34,21 @@ sensor = HCSR04(trigger_pin=5, echo_pin=18, echo_timeout_us=10000)
 
 clock = time.clock()
 
+
+
+motor=Servo(pin=22) # A changer selon la broche utilisée
+motor.move(0) # tourne le servo à 0°
+time.sleep(0.3)
+motor.move(90) # tourne le servo à 90°
+time.sleep(0.3)
+motor.move(180) # tourne le servo à 180°
+time.sleep(0.3)
+motor.move(90) # tourne le servo à 90°
+time.sleep(0.3)
+motor.move(0) # tourne le servo à 0°
+time.sleep(0.3)
+
+
 while(True):
     clock.tick()
     img = sensor.snapshot()
@@ -40,6 +57,10 @@ while(True):
     pin_13.value(1)
     pin_12.value(1)
     pin_11.value(1)
+
+    #pomiar dystansu
+    distance = sensor.distance_cm()
+    print('Distance:', distance, 'cm')
 
 
     utime.sleep_ms(1500)

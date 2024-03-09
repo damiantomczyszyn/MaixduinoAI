@@ -3,7 +3,9 @@
 import sensor, image, time
 from fpioa_manager import fm
 from Maix import GPIO
+from machine import I2C# ,Pin - nie ma pinu dla maixduino jak jest dla ESP
 from servo import Servo
+import pcf8575
 import time
 import utime
 #from hcsr04 import HCSR04

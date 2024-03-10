@@ -10,6 +10,11 @@ import time
 import utime
 #from hcsr04 import HCSR04
 import hcsr04
+import KPU as kpu #do zarządzania pamięcią, np karta SD
+#Load the AI models from SD Card
+#task_fd = kpu.load("/sd/FaceDetection.smodel")
+#task_ld = kpu.load("/sd/FaceLandmarkDetection.smodel")
+#task_fe = kpu.load("/sd/FeatureExtraction.smodel")
 
 sensor.reset()
 sensor.set_pixformat(sensor.RGB565)

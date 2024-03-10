@@ -8,6 +8,9 @@
 - [x] Stworzenie projektu i przygotowanie środowiska
 - [x] Zrozumienie sterowania pinami w jęzku Python
 - [x] Przetestowanie czujnika odległości.
+- [ ] Znalezienie modelu wykorzystywanej kamery - prawdopodobnie OV2640 2 Million Pixel Camera Module
+- [ ] Przeimplementowanie bibliotek ESP32 do maixduino - Pin
+- [ ] Przetestowanie i wykorzystanie expandera pinów z arduino
 - [ ] Przetestowanie połączenia serwomechanizmu
 - [ ] Oprogramowanie sterowania serwomechanizmem.
 - [ ] Zebranie zdjęć do nauki modelu.

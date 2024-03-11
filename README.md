@@ -26,7 +26,8 @@
 
 ### Biblioteki
 * https://github.com/rsc1975/micropython-hcsr04/blob/master/hcsr04.py - czujnik odległości
-
+* https://www.upesy.com/blogs/tutorials/esp32-servo-motor-sg90-on-micropython - Servo
+* https://github.com/RobTillaart/PCF8575 - Pin Expander
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [Python.org]: https://hub.docker.com/api/media/repos_logo/v1/library%2Fpython

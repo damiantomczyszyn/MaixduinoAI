@@ -3,6 +3,7 @@
 ## Inteligentne sterowanie kamerą przymocowaną do serwomechanizmu, aby śledziła piłkę do tenisa stołowego.
 
 
+
 ### Plan działania
 
 - [x] Stworzenie projektu i przygotowanie środowiska

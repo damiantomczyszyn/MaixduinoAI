@@ -1,4 +1,4 @@
-from machine import Pin, PWM
+from machine import PWM, Pin
 
 #Trzeba przeimplementować Pin z esp32 na maixduino
 

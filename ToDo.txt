@@ -1,0 +1,20 @@
+1. Jak stworzyć bibliotekę pin lub gdzie ją znajdę?
+2. Dlaczego ESP32 micropython ją posiada, a maixduino nie?
+3. Jakie są różnice między wersjami flasha?
+
+Czy micropython maixduino jest micropythonem zrobionym na oficjalnym micropythonie?
+Jak zrobić firmware:
+You can customize your firmware at https://www.maixhub.com/compile.html
+Or build by yourself according to  https://github.com/sipeed/MaixPy/blob/master/build.md
+
+Wgranie konfiguracji do maixduino.(sipeed)
+Zrozumienie jak ona się ma i frameworki jak są powiązane ze sobą:
+- Seed-Studio
+- Sipeed/Maixduino
+- Awsome-micropython
+- awsome-k210
+
+Czym jest: 
+- LVGL
+- NES emulator
+- kmodel(versions V4,V3)

@@ -4,6 +4,7 @@
 
 Czy micropython maixduino jest micropythonem zrobionym na oficjalnym micropythonie?
 Jak zrobić firmware:
+https://wiki.sipeed.com/soft/maixpy/en/firmware/why_customize_firware.html
 You can customize your firmware at https://www.maixhub.com/compile.html
 Or build by yourself according to  https://github.com/sipeed/MaixPy/blob/master/build.md
 
@@ -15,6 +16,23 @@ Zrozumienie jak ona się ma i frameworki jak są powiązane ze sobą:
 - awsome-k210
 
 Czym jest: 
-- LVGL
-- NES emulator
-- kmodel(versions V4,V3)
+- LVGL - LVGL (Light and Versatile Graphics Library):
+LVGL to biblioteka graficzna typu open-source, która umożliwia tworzenie interfejsów użytkownika (UI) na urządzeniach wbudowanych, w tym na platformie Maixduino. 
+- NES emulator - NES Emulator to oprogramowanie umożliwiające emulację konsoli Nintendo Entertainment System (NES) na platformie Maixduino.
+- kmodel(versions V4,V3) - KModel to format modeli maszyny uczącej się (ang. machine learning models), które są kompatybilne z platformą Maixduino.
+
+
+Maixduino https://dl.sipeed.com/shareURL/MAIX/HDK/Sipeed-Maixduino
+https://wiki.sipeed.com/soft/maixpy/en/get_started/get_started_led_blink.html
+
+0x000000 bin
+0x300000 model
+0xD00000 Spiffs
+16MB -0xffffff
+
+fatfs SD
+
+K210 will start to run the program from 0x000000
+SPIFFS (Serial Peripheral Interface Flash File System) to system plików przeznaczony do pamięci flash w mikrokontrolerach,
+zwłaszcza tych, które mają ograniczone zasoby pamięci RAM. SPIFFS jest często stosowany w mikrokontrolerach, które nie mają wystarczająco dużo pamięci RAM,
+aby obsłużyć tradycyjne systemy plików takie jak FAT32.

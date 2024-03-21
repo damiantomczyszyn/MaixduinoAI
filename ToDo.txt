@@ -2,6 +2,9 @@
 2. Dlaczego ESP32 micropython ją posiada, a maixduino nie?
 3. Jakie są różnice między wersjami flasha?
 4. czy maixduino ma RTOS jak ESP
+5. czy pythonDHT od sipped biblioteka zadziała na maixduino
+6. https://beta-notes.way-nifty.com/blog/2020/03/post-48b886.html sprawdzenie tego tutorialu.
+Jest opisany prawie w całości po angielsku i są różne przykłady, ale brak z DHT
 
 
 Czy micropython maixduino jest micropythonem zrobionym na oficjalnym micropythonie?
@@ -22,7 +25,7 @@ Prowadzą stronki sipeed.wiki i sipped.maixpy ide
 - Awsome-micropython
 - awsome-k210 - https://github.com/elloza/awesome-k210 lista projektów i bibliotek i innych przydatych rzeczy
 - AIWintermuteAI - https://github.com/AIWintermuteAI/aXeleRate ma repozytorium AxeleRate, Keras-based framework for AI on the Edge
-
+- pythonDHT sipeed - https://github.com/Seeed-Studio/Seeed_Python_DHT
 
 Czym jest: 
 - LVGL - LVGL (Light and Versatile Graphics Library):

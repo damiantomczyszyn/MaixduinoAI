@@ -3,7 +3,7 @@
 import sensor, image, time
 from fpioa_manager import fm
 from Maix import GPIO
-#from machine import Pin, PWM
+from machine import Pin, PWM
 
 from machine import I2C# ,Pin - nie ma pinu dla maixduino jak jest dla ESP
 

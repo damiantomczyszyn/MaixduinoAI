@@ -7,7 +7,8 @@
 Jest opisany prawie w całości po angielsku i są różne przykłady, ale brak z DHT
 7. Gdzie jest i jak wygląda kod źródłowy micropythona? - Jest napisany w C
 8. Czym jest RTOS esp32 i jak z niego korzystać a jak z maixduino RTOS
-9.
+9.  czym jest grove ? https://wiki.seeedstudio.com/Grove_System/ - Grove to modułowy, ustandaryzowany system prototypowania złączy
+	* wymaga on drivera grove.py * działa na raspberrypi
 
 
 Czy micropython maixduino jest micropythonem zrobionym na oficjalnym micropythonie?
@@ -29,7 +30,9 @@ Prowadzą stronki sipeed.wiki i sipped.maixpy ide
 - awsome-k210 - https://github.com/elloza/awesome-k210 lista projektów i bibliotek i innych przydatych rzeczy
 - AIWintermuteAI - https://github.com/AIWintermuteAI/aXeleRate ma repozytorium AxeleRate, Keras-based framework for AI on the Edge
 - pythonDHT sipeed - https://github.com/Seeed-Studio/Seeed_Python_DHT
-
+- https://github.com/sipeed/MaixPy - biblioteka maix zawierająca kamere ekran i inne skrypty biblioteki // MaixPy not only a Python SDK, but have a whole ecosystem, including hardware, software, tools, docs, etc. See the picture below:
+- https://github.com/sipeed/MaixPy-v1 -  budowanie kodu firmware i skrypty programów   // MicroPython for K210 RISC-V, let's play with edge AI easier oprogramowanie
+- API SDK wiki maixpy
 Czym jest: 
 - LVGL - LVGL (Light and Versatile Graphics Library):
 LVGL to biblioteka graficzna typu open-source, która umożliwia tworzenie interfejsów użytkownika (UI) na urządzeniach wbudowanych, w tym na platformie Maixduino. 

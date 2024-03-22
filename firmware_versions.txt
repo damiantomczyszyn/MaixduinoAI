@@ -1,0 +1,2 @@
+ESP32: maixduino_esp32_firmware_v1.4.1_0x0.bin
+maixduino: maixpy_v0.6.2_85_g23d09fbcc.bin

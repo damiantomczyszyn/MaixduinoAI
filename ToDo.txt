@@ -5,6 +5,9 @@
 5. czy pythonDHT od sipped biblioteka zadziała na maixduino
 6. https://beta-notes.way-nifty.com/blog/2020/03/post-48b886.html sprawdzenie tego tutorialu.
 Jest opisany prawie w całości po angielsku i są różne przykłady, ale brak z DHT
+7. Gdzie jest i jak wygląda kod źródłowy micropythona? - Jest napisany w C
+8. Czym jest RTOS esp32 i jak z niego korzystać a jak z maixduino RTOS
+9.
 
 
 Czy micropython maixduino jest micropythonem zrobionym na oficjalnym micropythonie?
@@ -34,7 +37,7 @@ LVGL to biblioteka graficzna typu open-source, która umożliwia tworzenie inter
 - kmodel(versions V4,V3) - KModel to format modeli maszyny uczącej się (ang. machine learning models), które są kompatybilne z platformą Maixduino.
 - openMV OpenMV to projekt open-source, który dostarcza zestaw narzędzi do tworzenia aplikacji wizyjnych na mikrokontrolerach. 
 W platformie Maix Sipeed, OpenMV to środowisko programistyczne (IDE), które umożliwia programowanie aplikacji wizyjnych przy użyciu języka Python.
-
+ - Spiffs - SPI flash file system https://github.com/pellepl/spiffs
 
 Maixduino https://dl.sipeed.com/shareURL/MAIX/HDK/Sipeed-Maixduino
 https://wiki.sipeed.com/soft/maixpy/en/get_started/get_started_led_blink.html
@@ -50,3 +53,6 @@ K210 will start to run the program from 0x000000
 SPIFFS (Serial Peripheral Interface Flash File System) to system plików przeznaczony do pamięci flash w mikrokontrolerach,
 zwłaszcza tych, które mają ograniczone zasoby pamięci RAM. SPIFFS jest często stosowany w mikrokontrolerach, które nie mają wystarczająco dużo pamięci RAM,
 aby obsłużyć tradycyjne systemy plików takie jak FAT32.
+
+
+Build - https://github.com/sipeed/MaixPy-v1/blob/master/build.md

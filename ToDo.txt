@@ -9,6 +9,8 @@ Jest opisany prawie w całości po angielsku i są różne przykłady, ale brak 
 8. Czym jest RTOS esp32 i jak z niego korzystać a jak z maixduino RTOS
 9.  czym jest grove ? https://wiki.seeedstudio.com/Grove_System/ - Grove to modułowy, ustandaryzowany system prototypowania złączy
 	* wymaga on drivera grove.py * działa na raspberrypi
+10. Czy esp32 steruje wyjściami czy k210.
+11 Który mcu jest główny i wykonuje kod
 
 
 Czy micropython maixduino jest micropythonem zrobionym na oficjalnym micropythonie?

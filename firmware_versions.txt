@@ -3,3 +3,4 @@ maixduino: maixpy_v0.6.2_85_g23d09fbcc.bin
 chipErase: K210-chip_erase.kfpkg
 
 Skompilować własny firmware z własnymi bibliotekami
+Dowiedzieć się co jest w tamtych bibliotekach

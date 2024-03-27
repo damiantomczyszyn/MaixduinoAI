@@ -1,5 +1,7 @@
 1. Jak stworzyć bibliotekę pin lub gdzie ją znajdę?
+ - nie ma biblioteki pin kompatybilnej. trzeba ją napisać samemu
 2. Dlaczego ESP32 micropython ją posiada, a maixduino nie?
+- maixduino posiada własny firmware nawet na esp32
 3. Jakie są różnice między wersjami flasha?
 4. czy maixduino ma RTOS jak ESP
 5. czy pythonDHT od sipped biblioteka zadziała na maixduino
@@ -11,6 +13,8 @@ Jest opisany prawie w całości po angielsku i są różne przykłady, ale brak 
 	* wymaga on drivera grove.py * działa na raspberrypi
 10. Czy esp32 steruje wyjściami czy k210.
 11 Który mcu jest główny i wykonuje kod
+12 jak napisać bibliotekę pythona i wszystkie pliki.
+13 czy biblioteki na esp32 różnią się od pythonowych na komputer (pip)
 
 
 Czy micropython maixduino jest micropythonem zrobionym na oficjalnym micropythonie?

@@ -15,6 +15,8 @@ Jest opisany prawie w całości po angielsku i są różne przykłady, ale brak 
 11 Który mcu jest główny i wykonuje kod
 12 jak napisać bibliotekę pythona i wszystkie pliki.
 13 czy biblioteki na esp32 różnią się od pythonowych na komputer (pip)
+14 Repo mikropython https://github.com/micropython/micropython
+15 Znalezienie kodu mikropythona dla esp32 i tutoriali jak zbudować kod
 
 
 Czy micropython maixduino jest micropythonem zrobionym na oficjalnym micropythonie?

@@ -21,7 +21,7 @@ Jest opisany prawie w całości po angielsku i są różne przykłady, ale brak 
 17 Zbudowanie własnego Firmware
 18 znalezie maixduino source code
 19 Przygotowanie maszyny virtualnej do kompilacji kodów
-20 
+20 przygotowanie skryptu instalującego pakiety zależnie od wyboru dla maixduino, esp32, arduino
 
 
 Czy micropython maixduino jest micropythonem zrobionym na oficjalnym micropythonie?

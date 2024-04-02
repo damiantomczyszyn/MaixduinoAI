@@ -12,17 +12,20 @@ Jest opisany prawie w całości po angielsku i są różne przykłady, ale brak 
 9.  czym jest grove ? https://wiki.seeedstudio.com/Grove_System/ - Grove to modułowy, ustandaryzowany system prototypowania złączy
 	* wymaga on drivera grove.py * działa na raspberrypi
 10. Czy esp32 steruje wyjściami czy k210.
-11 Który mcu jest główny i wykonuje kod
-12 jak napisać bibliotekę pythona i wszystkie pliki.
-13 czy biblioteki na esp32 różnią się od pythonowych na komputer (pip)
-14 Repo mikropython https://github.com/micropython/micropython
-15 Znalezienie kodu mikropythona dla esp32 i tutoriali jak zbudować kod
-16 Pobranie espIDF do budowania firmwaru.
-17 Zbudowanie własnego Firmware
-18 znalezie maixduino source code
-19 Przygotowanie maszyny virtualnej do kompilacji kodów
-20 przygotowanie skryptu instalującego pakiety zależnie od wyboru dla maixduino, esp32, arduino
-21 Zrobienie inżynierii wstecznej firmwaru na maixduino esp32
+11. Który mcu jest główny i wykonuje kod
+12. jak napisać bibliotekę pythona i wszystkie pliki.
+13. czy biblioteki na esp32 różnią się od pythonowych na komputer (pip)
+14. Repo mikropython https://github.com/micropython/micropython
+15. Znalezienie kodu mikropythona dla esp32 i tutoriali jak zbudować kod
+16. Pobranie espIDF do budowania firmwaru.
+17. Zbudowanie własnego Firmware
+18. znalezie maixduino source code
+19. Przygotowanie maszyny virtualnej do kompilacji kodów / -tak
+20. przygotowanie skryptu instalującego pakiety zależnie od wyboru dla maixduino, esp32, arduino
+21. Zrobienie inżynierii wstecznej firmwaru na maixduino esp32
+22. Da się napisać sterownik HID na arduino i ESP niezleżnie nawet jeśli są płytkami rozwojowymi
+	i podłączyć go do pinoutów
+
 
 Czy micropython maixduino jest micropythonem zrobionym na oficjalnym micropythonie?
 Jak zrobić firmware:

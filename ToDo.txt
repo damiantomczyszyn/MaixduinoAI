@@ -25,6 +25,7 @@ Jest opisany prawie w całości po angielsku i są różne przykłady, ale brak 
 21. Zrobienie inżynierii wstecznej firmwaru na maixduino esp32
 22. Da się napisać sterownik HID na arduino i ESP niezleżnie nawet jeśli są płytkami rozwojowymi
 	i podłączyć go do pinoutów
+23. Zrobienie projektu do nauki i testowania modułów komunikacyjnych
 
 
 Czy micropython maixduino jest micropythonem zrobionym na oficjalnym micropythonie?

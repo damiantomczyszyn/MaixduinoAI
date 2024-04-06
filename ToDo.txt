@@ -26,6 +26,7 @@ Jest opisany prawie w całości po angielsku i są różne przykłady, ale brak 
 22. Da się napisać sterownik HID na arduino i ESP niezleżnie nawet jeśli są płytkami rozwojowymi
 	i podłączyć go do pinoutów
 23. Zrobienie projektu do nauki i testowania modułów komunikacyjnych
+24. Skompletowanie czujnikow komunikacyjnych
 
 
 Czy micropython maixduino jest micropythonem zrobionym na oficjalnym micropythonie?

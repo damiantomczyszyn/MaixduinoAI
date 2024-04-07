@@ -27,6 +27,7 @@ Jest opisany prawie w całości po angielsku i są różne przykłady, ale brak 
 	i podłączyć go do pinoutów
 23. Zrobienie projektu do nauki i testowania modułów komunikacyjnych
 24. Skompletowanie czujnikow komunikacyjnych
+25. Przetestowanie działania modułów BT oraz IR - done
 
 
 Czy micropython maixduino jest micropythonem zrobionym na oficjalnym micropythonie?

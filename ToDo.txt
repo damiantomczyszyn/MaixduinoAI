@@ -28,6 +28,7 @@ Jest opisany prawie w całości po angielsku i są różne przykłady, ale brak 
 23. Zrobienie projektu do nauki i testowania modułów komunikacyjnych
 24. Skompletowanie czujnikow komunikacyjnych
 25. Przetestowanie działania modułów BT oraz IR - done
+26. Przetestowania działa modułów sieciowych 2.4gHZ i 433hz
 
 
 Czy micropython maixduino jest micropythonem zrobionym na oficjalnym micropythonie?

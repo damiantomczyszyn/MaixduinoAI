@@ -30,7 +30,7 @@ Jest opisany prawie w całości po angielsku i są różne przykłady, ale brak 
 25. Przetestowanie działania modułów BT oraz IR - done
 26. Przetestowania działa modułów sieciowych 2.4gHZ i 433hz
 27. Prace nad bluetooth
-
+28. Prace nad hakowaniem bluetooth
 
 Czy micropython maixduino jest micropythonem zrobionym na oficjalnym micropythonie?
 Jak zrobić firmware:
